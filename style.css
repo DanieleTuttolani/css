@@ -139,15 +139,25 @@ header {
 /* # Main & sections */
 section {
   padding: 50px;
-  height: 600px;
+  min-height: 600px;
 }
 
 section > .container {
   height: 100%;
 }
 
+main h2{
+  font-size: 45px;
+  padding: 20px 0;
+}
+
+main p{
+  font-size: 20px;
+    padding: 15px 0;
+}
 .flex > .small-col {
   flex-basis: 40%;
+  padding: 20px 55px;
   background-color: pink;
 }
 
@@ -161,14 +171,33 @@ section > .container {
   background-color: darkgreen;
 }
 
+.full-col{
+  text-align: center;
+  
+}
+
+#full-col-smal-title{
+  font-size: 35px;
+}
+
+.full-col .dow-mac{
+  color: white;
+  background-color:rgb(101, 121, 194);
+  padding: 15px 25px;
+  font-size: 15px;
+  border-radius: 30px;
+}
 /* # Footer */
 
 footer {
   padding: 50px;
   background-color: #23272a;
-  /* color: white; */
+  
 }
-
+footer h2{
+  font-size: 30px;
+  color: rgb(101, 121, 194);
+}
 .footer-top {
   height: 600px;
   padding-bottom: 30px;
