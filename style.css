@@ -62,10 +62,22 @@ header {
   text-align: center;
 }
 
+.navbar-menu p{
+  display: inline;
+  padding: 5px 25px;
+}
+
 .navbar-actions {
   text-align: right;
 }
 
+.navbar-actions button{
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 30px;
+}
 /* # Jumbotron */
 
 .jumbotron {
