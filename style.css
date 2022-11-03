@@ -83,7 +83,8 @@ header {
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-color: darkblue;
+  background-image: url(../img/jumbo.png);
+  background-size: contain;
 
   display: flex;
   justify-content: center;
@@ -96,6 +97,45 @@ header {
   background-color: violet;
 }
 
+.jumbotron .content>*{
+  color: white;
+}
+
+.content h1{
+  line-height: 80px;
+  text-align: center;
+  font-size: 45px;
+  padding: 20px;
+}
+
+.content p{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content span{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.content-flex button{
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.content-flex .dow-mac{
+  color: black;
+  background-color: white;
+
+}
+
+.content-flex .goto{
+  background-color: #23272a;
+  color: white;
+}
 /* # Main & sections */
 section {
   padding: 50px;
